@@ -1,0 +1,19 @@
+{
+  "name": "social-booth",
+  "version": "1.0.0",
+  "description": "a mongo db application ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "seed": "node utils/seed"
+  },
+  
+  "author": "chukwuka izamoje",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  }
+}
